@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+ul {
+    text-decoration: none;
+    float: left;
+}
+
+/* Navbar  */
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    padding: 12px 80px;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+}
+
+.nav-item-left {
+    padding-left: 20px;
+    padding-top: 18px;
+    padding-right: 1px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    color: grey;
+    top: 10px;
+    float: left;
+    list-style: none;
+}
+
+#evernoteLogo {
+    margin-left: 70px;
+    padding-bottom: -1px;
+    top: -2px;
+    padding-right: 10px;
+    padding-left: 55px;
+}
+
+#triangleLogo {
+    padding: 0 6px;
+    padding-top: -25px;
+    margin-top: 25px;
+}
+
+.navItemRight {
+    margin-left: 10px;
+    padding-left: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+    float: right;
+}
+
+.loginButton {
+    background: transparent;
+    color: grey;
+    border: none;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.loginButton:hover {
+    transition: 0.5s;
+    background-color: #5ba525;
+    color: black;
+    box-shadow: 0px 0px 10px #5ba525;
+}
+
+.buttonOne {
+    background: transparent;
+    border: 3px solid black;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 3px;
+    height: 50px;
+    width: 200px;
+    top: -5%;
+    cursor: pointer;
+}
+
+.buttonOne:hover {
+    transition: 0.5s;
+    background-color: #5ba525;
+    color: black;
+    box-shadow: 0px 0px 40px #5ba525;
+}
+
+/* LEFT SECTION */
+
+.left {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    padding: 100px 200px;
+}
+
+#big-font {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 68px;
+    font-family: "Soleil_Medium", Helvetica, Arial, sans-serif;
+}
+
+#small-font {
+    font-size: 20px;
+    font-family: "Soleil_Medium", Helvetica, Arial, sans-serif;
+}
+
+/* RIGHT SECTION */
+
+.right {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    margin-right: 100px;
+}
+
+#right-heading {
+    padding-top: 50px;
+    font-size: 22px;
+    font-family: "Soleil_Medium", Helvetica, Arial, sans-serif;
+}
+
+/* Sign Up Using Google Button */
+
+#google-div {
+    padding-bottom: 50px;
+}
+
+#btn-google {
+    background-color: ghostwhite;
+    padding: 8px 0;
+    color: black;
+    font-size: medium;
+    font-family: "Soleil_Medium", Helvetica, Arial, sans-serif;
+    border: 1px solid rgba(148, 143, 143, 0.185);
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 80%;
+    height: 40px;
+}
+
+#btn-google:hover {
+    background-color: rgb(38, 172, 98);
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 40px rgb(38, 172, 98);
+}
+
+
+/* FORMS */
+
+#register-form {
+    width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px #aaa;
+    margin-top: 400px;
+    padding: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.input-item {
+    font-size: 15px;
+    font-family: "Soleil_Medium", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    width: 350px;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: rgba(148, 143, 143, 0.185);
+    outline: none;
+    border: none;
+    width: 75%;
+    height: 30px;
+    padding: 10px;
+}
+
+.input-item:hover {
+    background-color: rgba(0, 217, 255, 0.2);
+}
+
+.input-item:focus {
+    background-color: rgba(0, 255, 35, 0.2);
+}
+
+#reg-button {
+    padding: 7px;
+    width: 80%;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Soleil_Medium", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    background-color: rgb(38, 172, 98);
+    color: white;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+}
+
+#reg-button:hover {
+    background-color: #5ba525;
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 40px #5ba525;
+}
+
+#reg-button:focus {
+    background-color: #5ba525;
+}
+
+#disclaimerText {
+    font-size: 9px;
+    padding-top: 15px;
+    font-family: "Soleil_Medium", Helvetica, Arial, sans-serif;
+    word-spacing: 2px;
+}

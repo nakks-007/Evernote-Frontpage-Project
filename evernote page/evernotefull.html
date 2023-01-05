@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evernote</title>
+    <link rel="stylesheet" href="evernotefull.css">
+    <script src="https://kit.fontawesome.com/da1da2b8d5.js" crossorigin="anonymous"></script>
+    <script src="evernote.js"></script>
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <div class="navbar">
+
+        <div id="evernoteLogo" class="nav-item-left">
+            <img src="https://evernote.com/img/logo/evernote/primary.svg" alt="Evernote Logo">
+        </div>
+
+        <div>
+            <ul>
+                <li class="nav-item-left"> Explore </i> </li>
+                <i class="fa fa-sort-desc" aria-hidden="true" id="triangleLogo"></i>
+        </div>
+
+        <li class="nav-item-left"> Web Clipper </li>
+        <li class="nav-item-left"> Download App </li>
+
+        </ul>
+
+        <div class="navItemRight">
+            <button class="loginButton"> Log In </button>
+            <button class="buttonOne">Try Evernote Business</button>
+        </div>
+
+    </div>
+
+    <!-- section -->
+
+    <div class="section">
+
+        <!-- LEFT SECTION -->
+
+        <div class="left">
+
+            <p id="big-font"> <b> Meet Evernote, <br> Your second <br> brain. </b> </p>
+
+            <p id="small-font"> Capture, organize and share notes from anywhere. Your <br />
+                best ideas are always with you and always in a sync </p>
+
+        </div>
+
+        <div class="right">
+
+            <!-- RIGHT SECTION -->
+
+            <p id="right-heading"> <b> Sign up for Free </b> </p>
+
+            <div id="google-div">
+                <button id="btn-google"> <i class="fa-brands fa-google"> </i> <span class="label"><b> Sign up Free with
+                            Google </b> </span> </button>
+            </div>
+
+            <div>
+
+                <!-- Forms -->
+
+                <form onsubmit="return validate()" action="message.html">
+                    <form id="register-form">
+
+                        <div>
+                            <input class="input-item" type="email" name="email" placeholder="Email" id="email"> <br>
+                            <label id="emailError" style="color:red; visibility: hidden;"> Email Should not be Empty
+                            </label>
+                        </div>
+
+                        <div>
+                            <input class="input-item" type="password" name="password" placeholder="Password" id="pass">
+                            <br>
+
+                            <label id="passError" style="color:red; visibility:hidden"> Password Should not be Empty
+                            </label> <br>
+
+                            <label id="passSmallError" style="color:red; visibility:hidden"> Password Should be larger
+                                than 5 Characters </label> <br>
+
+                            <label id="passLargeError" style="color:red; visibility:hidden"> Password Should be smaller
+                                than 20 Chacters </label>
+                        </div>
+
+                        <div id="disclaimerText">
+
+                            By clicking Sign Up, I agree to the <b> Terms of Service </b> and <br>
+                            <b> Privacy Policy </b>
+
+                        </div>
+
+                        <br />
+
+                        <button id="reg-button" type="submit"> Sign Up For Free </button>
+
+                    </form>
+            </div>
+
+        </div>
+</body>
+
+</html>
